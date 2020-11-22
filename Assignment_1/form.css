@@ -1,0 +1,66 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px dotted rgb(15, 3, 3);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button[type=submit]{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button[type=submit]:hover {
+    
+    padding: 14px 20px;
+    background-color: orangered;
+    text-decoration: underline;
+
+}
+form{
+    border-top: 4px solid orange;
+    padding: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7e6e5;
+}
+
+.logincontainer {
+    padding: 30px;
+    margin: 10px;
+    border: 3px solid #f1f1f1;
+}
+
+
+#background-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#background-image #header-text {
+    position: absolute;
+    padding: 30px;
+    text-align: left;
+    margin: 20px auto;
+    display: block;
+    bottom: 40px;
+    color: white;
+}
+
+img{
+    width: 3000px;
+    height: 80%;
+}
